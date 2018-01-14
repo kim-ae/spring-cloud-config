@@ -1,0 +1,11 @@
+server.port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ssh://public/kim-ae/spring-cloud-config/
+          search-paths: config-files
+          clone-on-start: true
+security.user.name: test-cloud
+security.user.password: s3cr3t
