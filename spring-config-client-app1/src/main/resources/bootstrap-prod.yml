@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: app1
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: test-cloud
+      password: s3cr3t
+message: Local test

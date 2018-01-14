@@ -1,0 +1,4 @@
+message: Local test
+management:
+  security:
+    enabled: false
