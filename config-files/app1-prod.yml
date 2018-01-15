@@ -1,6 +1,6 @@
 message: "Test app 1 atualização 4"
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1/banco2
+    url: jdbc:mysql://127.0.0.1/banco1
     username: root
     password: 123456
